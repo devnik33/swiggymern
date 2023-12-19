@@ -1,0 +1,23 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* The height: 100vh; style sets the height of the .Main element to 100% of the viewport height, ensuring that its children can be centered vertically. */
+    height: 100vh; 
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+
+#clickbutton {
+    margin-top: 60%;
+    margin-bottom: 50%;
+    padding-left: 50%;
+    padding-top: 15%;
+    padding-right: 50%;
+    padding-bottom: 15%;
+    background-color: rgb(0, 115, 255);
+    color: whitesmoke
+}
