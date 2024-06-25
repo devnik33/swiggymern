@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content= 
+        "width=device-width, initial-scale=1.0"> 
+    <title>Chat Template UI using HTML and CSS</title> 
+  <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script> 
+    <link rel="stylesheet"  href="css/style.css" />
+
+</head> 
+  
+<body> 
+    <div class="chat-container"> 
+        <div class="container"> 
+            <div class="message right"> 
+                <img src= 
+"https://media.geeksforgeeks.org/wp-content/uploads/20220123013311/gfg.png" 
+                    alt="Sender Avatar"
+                    class="avatar"> 
+                Hello there! 
+            </div> 
+
+            <div class="message left"> 
+                <img src= 
+"https://media.geeksforgeeks.org/wp-content/uploads/20210511160813/g4g.jpg"
+                    alt="Receiver Avatar" 
+                    class="avatar"> 
+                Hi! How can I help you today? 
+            </div> 
+            
+           
+        </div> 
+  
+        <div class="send"> 
+            <form  action="#" id="send-container">
+            <input type="text" 
+                placeholder="Type your message..." name="messageInp" id="messageInp"> 
+            <button class="btn" type="submit">Send</button> 
+        </form>
+        </div> 
+    </div> 
+</body> 
+  
+</html>
